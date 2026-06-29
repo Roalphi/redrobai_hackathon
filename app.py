@@ -7,7 +7,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from tank import build_reason, rank_candidates
+from rank import build_reason, rank_candidates
 
 
 st.set_page_config(page_title="Redrob Ranker Sandbox", layout="wide")

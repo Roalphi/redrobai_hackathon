@@ -7,11 +7,11 @@
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "your-team-name-here"  # Used in leaderboard and announcements
+team_name: "MARS"  # Used in leaderboard and announcements
 
 primary_contact:
-  name: "Full Name"
-  email: "primary@example.com"   # Used for all organizer communication
+  name: "Anusuya G"
+  email: "24243024@nec.edu.in"   # Used for all organizer communication
   phone: "+91-XXXXXXXXXX"        # Used for top-50 / top-10 outreach
 
 team_members:

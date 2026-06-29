@@ -1,0 +1,63 @@
+# Redrob Hackathon submission metadata
+
+team_name: "ARMS"
+
+primary_contact:
+  name: "Roselin Jenifer C"
+  email: "24243027@nec.edu.in"
+  phone: "9344691086"
+
+team_members:
+  - name: "Muthu Rajeswari M"
+    email: "24243032@nec.edu.in"
+    role: "6382329048"
+
+  - name: "Anusuya G"
+    email: "24243024@nec.edu.in"
+    role: "8525801126"
+
+  - name: "Selva Malar S"
+    email: "24243038@nec.edu.in"
+    role: "9600926013"
+
+github_repo: "https://github.com/Roalphi/redrobai_hackathon.git"
+sandbox_link: "https://redrobaihackathon-mu4hd4appiohmpykrjt3mpq.streamlit.app/"
+reproduce_command: "python rank.py --candidates data/candidates.jsonl --out submission.csv"
+
+compute:
+  platform: "Local Windows laptop (AMD Ryzen 5 5600H)"
+  cpu_cores: 6
+  ram_gb: 15
+  python_version: "3.12.2"
+  os: "Microsoft Windows 11 Home Single Language 10.0.26200"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+ai_tools_used:
+  - "OpenAI Codex"
+
+ai_usage_summary: |
+  Used OpenAI Codex to fill the submission metadata from repository context
+  and local environment checks. The ranker itself is deterministic, CPU-only,
+  uses the Python standard library, and makes no network calls during ranking.
+
+methodology_summary: |
+  Deterministic rule-based ranker for the Senior AI Engineer JD. The scoring
+  model emphasizes production evidence in titles and career history for
+  retrieval, ranking, search, recommendations, embeddings, vector search, and
+  evaluation systems. Skills are supporting evidence weighted by proficiency,
+  endorsements, duration, and Redrob assessment scores. The final score combines
+  career fit, target skills, 5-9 year experience fit, product-company exposure,
+  education, behavioral availability, location, and salary reasonableness. It
+  applies penalties and hard caps for keyword stuffing, inconsistent experience,
+  expert skills with zero duration, non-technical titles with many AI keywords,
+  low availability signals, and honeypot-style fabrication.
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: true
+  reproduction_tested: false
