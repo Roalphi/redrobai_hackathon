@@ -37,6 +37,7 @@ compute:
 
 ai_tools_used:
   - "OpenAI Codex"
+  - "Claude"
 
 ai_usage_summary: |
   Used OpenAI Codex to fill the submission metadata from repository context
